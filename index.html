@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--Fav Icon-->
+    <link rel="icon" type="image/x-icon" href="./assets/images/helia-logo.jpeg">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Helia</title>
+    <meta name="author" content="u202121010">
+    <meta name="keywords" content="Reservas de alojamientos, aplicativo móvil, hoteles, resorts, villas, departamentos, Europa, escapar de la rutina, alojamientos únicos, precios atractivos, segmento de huéspedes, segmento de proveedores de alojamiento, reserva de alojamiento, búsqueda de alojamiento, filtrado de alojamiento, perfil de usuario, gestión de reservas, medios de pago, comentarios de huéspedes, experiencia de alojamiento.">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo-link"><img src="./assets/images/helia-logo.jpeg" alt="logo Helia"></a>
+            <ul class="nav-items-links">
+                <li>
+                    <a class ="nav-item inicio-link active" href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" class ="nav-item seccion1-link">Características</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item seccion2-link">Nuestra App</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item seccion3-link">Testimonios</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-item seccion4-link">Contáctanos</a>
+                </li>
+            </ul>
+            <i class="fa-solid fa-bars hamburguer inactive"></i>
+        </nav>
+    </header>
+    <main>
+        <section class="inicio">
+            <div class="img-fondo">
+                <div class="inicio-fondo">
+                    <div class="inicio-text" data-aos="fade-up" data-aos-duration="2000">
+                        <h1>Bienvenido a Helia</h1>
+                        <p>
+                            “Alojamientos únicos en todo el mundo para escapar de la rutina"
+                        </p>
+                        <div class="inicio-download">
+                            <a href="https://www.apple.com/la/app-store/" target="_blank"><img src="./assets/images/app store-light.png" alt="Descargar en App Store"></a>
+                            <a href="https://play.google.com/" target="_blank"><img src="./assets/images/google play-light.png" alt="Descargar en Google Play"></a>
+                        </div>
+                    </div>
+                    <div class="producto-img" data-aos="fade-up" data-aos-duration="2000">
+                        <img data-aos="flip-left" data-aos-duration="2000" src="./assets/images/24-Welcome.png" alt="Pantalla de inicio del aplicativo Helia">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h1>La mejor app de alojamientos</h1>
+            <p>
+                Encuentra alojamientos únicos en toda Europa con precios atractivos y competitivos. Únete a nuestra comunidad de huéspedes y proveedores de alojamiento y disfruta de una experiencia de reserva fácil y conveniente. ¡Explora Helia hoy mismo!
+            </p>
+        </section>
+        
+        <section class="container-feature">
+            <h2>Descubre la potencia de Helia</h2>
+            <div class="container-slider">
+                <div class="container-carousel">
+                    <i id="left" class="caret fa-solid fa-angle-left fa-2x"></i>
+                    <ul class="carousel">
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/01-Sign up.png" alt="Registrarse en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Regístrate fácilmente</h4>
+                                <p>Crea tu cuenta con Facebook, Google, Apple o correo electrónico.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/02-Sign in.png" alt="Iniciar sesión en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Accede rápidamente</h4>
+                                <p>Inicia sesión de forma sencilla con varias opciones.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/03-Profile.png" alt="configurar perfil en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Gestiona tu perfil</h4>
+                                <p>Personaliza tus preferencias y actualiza tu información.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/06-Recently booked.png" alt="Lista de hoteles recomendados en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Encuentra tu hotel ideal</h4>
+                                <p>Explora hoteles recomendados y los últimos lugares reservados.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/10-Filter.png" alt="Filtrar búsqueda en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Filtra y busca</h4>
+                                <p>Encuentra hoteles por país, precio, estrellas y más.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/13-Detail2.png" alt="Detalles de un hotel en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Detalles completos del hotel</h4>
+                                <p>Descubre la descripción, instalaciones y ubicación del hotel.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/14-Galery.png" alt="Galería de fotos en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Galería de fotos</h4>
+                                <p>Visualiza imágenes detalladas del hotel.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/15-Review.png" alt="Comentarios y calificaciones en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Opiniones y calificaciones</h4>
+                                <p>Lee comentarios de otros huéspedes.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/16-Check in Check out.png" alt="Reservar un hotel en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Reserva fácilmente</h4>
+                                <p>Selecciona fechas y cantidad de personas, elige tu medio de pago.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/20-My Booking.png" alt="Historial de reservas en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Gestiona tus reservas</h4>
+                                <p>Accede al historial de reservas, cancela y obtén reembolsos.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/25-Notification.png" alt="Notificaciones en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Experiencia personalizada</h4>
+                                <p>Recibe notificaciones sobre promociones y ofertas.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/26-Rate.png" alt="Calificar experiencia en la app Helia"></figure>
+                            <div class="info-feature">
+                                <h4 class="name-feature">Comparte tu experiencia</h4>
+                                <p>Califica y comenta tu estancia en un hotel.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <i id="right" class="caret fa-solid fa-angle-right fa-2x"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-description">
+            <h2>Todo lo que necesitas en una sola app: Helia</h2>
+            <ul class="features-list">
+                <li>
+                    <i class="fa-solid fa-palette"></i>
+                    <h4>Diseño único y minimalista</h4>
+                    <p>
+                        Helia es una aplicación móvil elegante y moderna que satisface todas tus necesidades.
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h4>Diseño adaptable</h4>
+                    <p>
+                        Helia se ve increíble en cualquier dispositivo móvil, asegurando que el contenido se pueda leer fácilmente y los usuarios entiendan claramente lo que deseas transmitir.
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <h4>Documentación completa</h4>
+                    <p>
+                        Nuestra documentación detallada te guía en cada paso de tu experiencia con Helia, asegurándote una experiencia fluida y sin complicaciones.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="container-producto">
+            <h2>Conoce la app de Helia</h2>
+            <div class="container-slider">
+                <div class="container-carousel">
+                    <i id="left" class="caret fa-solid fa-angle-left fa-2x"></i>
+                    <ul class="carousel">
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/24-Welcome.png" alt="Bienvenido a la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/05-Home.png" alt="Inicio de la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/13-Detail2.png" alt="Detalle de reserva de la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/14-Galery.png" alt="Galería de la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/07-My Bookmark.png" alt="Reservas de la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/18-Confirm Payment.png" alt="Pago en la app de Helia"></figure>
+                        </li>
+                        <li class="carousel-product">
+                            <figure><img src="./assets/images/19-Ticket.png" alt="Ticket de pago de la app de Helia"></figure>
+                        </li>
+                        
+                    </ul>
+                    <i id="right" class="caret fa-solid fa-angle-right fa-2x"></i>
+                </div>
+            </div>
+            <p>
+                Descarga Helia ahora y disfruta de una experiencia de reserva sin complicaciones
+            </p>
+        </section>
+
+        <section class="container-testimonios">
+            <h2>TESTIMONIOS</h2>
+            <div class="container-slider">
+                <div class="container-carousel">
+                    <i id="left" class="caret fa-solid fa-angle-left fa-2x"></i>
+                    <ul class="carousel">
+                        <li class="carousel-product">
+                            <div class="card-testimonio">
+                                <div class="d-flex flex-row">
+                                    <img class="img-fluid" src="./assets/images/testimonio1.jpg" alt="Foto de perfil de un usuario del aplicativo Helia">
+                                    <div class="text-start px-4">
+                                        <h3>Laura Martinez</h3>
+                                        <p>20 de mayo de 2023</p>
+                                    </div>
+                                </div>
+                                <p class="text-start">Maravilloso. Cada pieza está elaborada a mano, lo que les da un encanto único. Estoy encantada con la calidad y el detalle.</p>
+                            </div>
+                            <div class="card-star">
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <div class="card-testimonio">
+                                <div class="d-flex flex-row">
+                                    <img class="img-fluid" src="./assets/images/testimonio2.jpeg" alt="Foto de perfil de un usuario del aplicativo Helia">
+                                    <div class="text-start px-4">
+                                        <h3>Bruno Espinoza</h3>
+                                        <p>5 de mayo de 2023</p>
+                                    </div>
+                                </div>
+                                <p class="text-start">Me encanta la variedad de los productos. Desde joyas hasta artículos
+                                    para el hogar, todo es hermoso y auténtico.</p>
+                            </div>
+                            <div class="card-star">
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                            </div>
+                        </li>
+                        <li class="carousel-product">
+                            <div class="card-testimonio">
+                                <div class="d-flex flex-row">
+                                    <img class="img-fluid" src="./assets/images/testimonio3.jpeg" alt="Foto de perfil de un usuario del aplicativo Helia">
+                                    <div class="text-start px-4">
+                                        <h3>Ana Jimenez</h3>
+                                        <p>28 de abril de 2023</p>
+                                    </div>
+                                </div>
+                                <p class="text-start">Desde que descubrí esta tienda, se ha
+                                    convertido en mi destino favorito para encontrar decoración única para mi hogar.</p>
+                            </div>
+                            <div class="card-star">
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #F9C846;"></i>
+                                <i class="fa-solid fa-star" style="color: #0000001a;"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <i id="right" class="caret fa-solid fa-angle-right fa-2x"></i>
+                </div>
+            </div>
+            <p class="text-center p">En nuestra empresa, celebramos la belleza de la artesanía y valoramos el
+                trabajo de manos talentosas. Cada pieza cuenta una historia única y nos enorgullece compartir estas
+                creaciones con el mundo. Eso se ve reflejado en la experiencia que tienen nuestros clientes con
+                nuestros servicios.</p>
+        </section>
+        <section class="contact-section">
+            <div class="contact-header">
+                <h2>Contáctanos</h2>
+                <p>
+                    En Helia tu satisfacción es nuestra prioridad, por eso estamos disponibles para responder cualquier consulta que puedas tener. ¡No dudes en contactarnos! Estamos ansiosos por ayudarte a planificar tu próximo viaje y hacer que cada detalle sea perfecto.
+                </p>
+            </div>
+            <form action="#">
+                <div class="field name-field">
+                    <label for="user-name">Nombre y apellido</label>
+                    <div class="input-field">
+                        <input type="text" id="user-name" class="user-name" placeholder="Ingresa tu primer nombre y primer apellido">
+                    </div>
+                    <span class="error name error">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <p class="error-text">Por favor ingresa tu primer nombre y primer apellido</p>
+                    </span>
+                </div>
+                <div class="field email-field">
+                    <label for="user-name">Correo electrónico</label>
+                    <div class="input-field">
+                        <input type="text" id="user-email" class="user-email" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <span class="error email error">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <p class="error-text">Por favor ingresa una dirección de correo válida</p>
+                    </span>
+                </div>
+                <div class="field message-field">
+                    <label for="user-name">Mensaje</label>
+                    <div class="text-field">
+                        <textarea id="user-message" class="user-message" placeholder="Ingresa tu mensaje"></textarea>
+                    </div>
+                    <span class="error message error">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <p class="error-text">Por favor ingresa un mensaje de al menos 10 caracteres</p>
+                    </span>
+                </div>
+                <div class="input-field button">
+                    <input type="submit" value="Enviar">
+                </div>
+                <div class="sucess-message">
+                    <p>¡Felicidades! Se ha enviado el mensaje correctamente</p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-row">
+            <a href="#" class="logo-link"><img src="./assets/images/helia-logo.jpeg" alt="logo Helia"></a>
+            <div class="footer-nav">
+                <h3>Navegación</h3>
+                <ul>
+                    <li>
+                        <a class ="nav-item active" href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#" class ="nav-item seccion1-link">Sección 1</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item seccion2-link">Sección 2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item seccion3-link">Sección 3</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-payment">
+                <h3>Métodos de pago</h3>
+                <ul>
+                    <li><i class="fa-brands fa-cc-visa"></i></li>
+                    <li><i class="fa-brands fa-cc-mastercard"></i></li>
+                    <li><i class="fa-brands fa-cc-paypal"></i></li>
+                </ul>
+            </div>
+            <div class="footer-social-media">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-download">
+                <a href="https://www.apple.com/la/app-store/" target="_blank"><img src="./assets/images/app store-light.png" alt="Descargar en App Store"></a>
+                <a href="https://play.google.com/" target="_blank"><img src="./assets/images/google play-light.png" alt="Descargar en Google Play"></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy;2023 Helia. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="./assets/scripts/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
